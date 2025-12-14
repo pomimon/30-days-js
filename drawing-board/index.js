@@ -96,3 +96,11 @@ function onCanvasClick(event) {
 
   window.localStorage.setItem("drawing-board-state", JSON.stringify(state));
 }
+
+function reset() {
+  state.cells.fill("white");
+  ctx.clearRect(0, 0, GRID_SIZE, GRID_SIZE);
+  drawGrid();
+
+  localStorage.removeItem("drawing-board-state");
+}
