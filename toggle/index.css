@@ -5,7 +5,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  background-color: antiquewhite;
+  background-color: lightcoral;
+  font-family: monospace, sans-serif;
 }
 
 html,
@@ -18,16 +19,24 @@ body.darktheme {
 }
 
 button {
+  font-family: monospace, sans-serif;
+  font-weight: bold;
   background-color: black;
-  border: 1px solid black;
-  color: white;
-  padding: 20px;
-  font-size: 20px;
   border-radius: 10px;
+  border: 1px solid black;
+  color: lightcoral;
+  font-size: 20px;
+  padding: 80px;
 }
 
 body.darktheme button {
+  align-content: center;
   background-color: yellow;
+  border-radius: 50%;
+  border: solid yellow;
+  box-shadow: 0px 0px 120px 95px #d6ff0066;
   color: black;
-  box-shadow: 0px 0px 12px 7px #d6ff0066;
+  height: 200px;
+  padding: 50px;
+  width: 200px;
 }
