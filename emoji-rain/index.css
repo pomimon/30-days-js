@@ -1,0 +1,36 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#container,
+canvas {
+  position: absolute;
+}
+
+canvas {
+  left: 154px;
+  top: 87px;
+}
+
+#container {
+  --img-width: 296px;
+  --img-height: 240px;
+  --img-scale: 2;
+
+  width: calc(var(--img-width) * var(--img-scale));
+  height: calc(var(--img-height) * var(--img-scale));
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/rainbowVomit_copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 20px auto;
+}
