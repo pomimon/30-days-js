@@ -6,22 +6,3 @@ body {
 body {
   margin: 0;
 }
-
-.cell:nth-child(2n + 1) {
-  background-color: #60e2fc;
-  border-radius: 50%;
-}
-
-.cell:nth-child(3n) {
-  background-color: #ff7bb2;
-}
-
-.cell:nth-child(4n) {
-  background-color: purple;
-  border-radius: 20%;
-}
-
-.cell:nth-child(20n + 1) {
-  background-color: yellow;
-  border-radius: 50%;
-}
