@@ -34,19 +34,19 @@ body {
   gap: 8px;
   margin-top: 90px;
 
-  button:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-}
+  > button {
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: var(--font-family);
 
-.buttons button {
-  background-color: transparent;
-  border-radius: 100%;
-  border: 2px solid;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-family: var(--font-family);
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
 }
 
 .section {
